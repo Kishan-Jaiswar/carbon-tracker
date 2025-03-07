@@ -33,7 +33,7 @@ Before running the project locally, make sure you have the following installed:
 2. **npm**: npm is included with Node.js.
 
 ### Vercel link
-[vercel link](https://carbon-tracker-r1wrtop3t-jaiswarkishan78-gmailcoms-projects.vercel.app/)
+[vercel link](https://carbon-tracker-wine.vercel.app/)
 **before clicking on it you must start the backend**
 
 ### Running the Project
