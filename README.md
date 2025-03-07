@@ -9,7 +9,7 @@ Carbon Tracker is a web application built with Vite for the frontend, and Node.j
 4. **User-Friendly Interface**: Interactive UI for easy input of travel data and display of carbon emission results and recommendations.
 
 ## Tech Stack
-- **Frontend**: React.js, Tailwind CSS
+- **Frontend**: React.js, Vite, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **AI Integration**: Gemini AI for recommendations
 - **Storage**: localStorage for storing previous carbon emission data
@@ -40,3 +40,43 @@ Before running the project locally, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/Kishan-Jaiswar/carbon-tracker.git
+
+### Navigate to the Project Directory
+
+2. **After cloning, navigate to the project directory:**
+
+   cd carbon-tracker
+   
+### Install Backend Dependencies
+
+3. **Navigate to the backend folder and install the necessary dependencies:**
+
+   cd backend
+   npm install
+
+### Install Frontend Dependencies
+
+4. **Now, navigate to the frontend folder and install the necessary dependencies:**
+
+   cd ../frontend
+   npm install
+
+### Start the Backend Server
+
+5. **Go back to the backend folder and start the Node.js server:**
+
+   cd ../backend
+   npm start
+
+### Start the Frontend Development Server
+
+6. **Now, go back to the frontend folder and start the Vite development server:**
+
+   cd ../frontend
+   npm run dev
+
+### The frontend server should be running on http://localhost:5173.
+
+Access the Application
+
+Open your browser and navigate to http://localhost:5173 to access the Carbon Tracker app. You should be able to enter travel data, calculate carbon emissions, and receive AI recommendations.
